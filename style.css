@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/mmc');
+body {
+  font-family:"Gill Sans", sans-serif;
+  background-color:#E5E0FF;
+  color: #2F3C7E;
+  font-size:100%;
+  line-height:150%;
+}
+
+h1 {
+  background-color:#7286D3;
+  color:#C5FAD5;
+  font-family: 'MMC', sans-serif;
+  font-size: 1.7em;
+}
+
+h2,h3 {
+  background-color:#8EA7E9;
+  color: #C5FAD5;
+  font-family: 'MMC', sans-serif;
+  font-size: 1.075em;
+}
+
+a {
+  text-decoration:none;
+  color:00008B;
+  /* font-weight: bold; */
+  /* font-size:18px; */
+  /* transition: 0.3s ease; */
+}
+a:hover {
+  color:#FF0000;
+}
+.card-white {
+  background-color:#FFFFFF;
+  text-align: center;
+  padding:30px;
+  width: 300px;
+  margin: 25px auto;
+  border-radius: 4px;
+  border: 1px solid #EAEAEA;
+}
+.btn-blue {
+  width:100px;
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+p {
+  text-align: left;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.img-circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
